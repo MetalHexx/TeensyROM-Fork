@@ -71,8 +71,10 @@
     * The [High Voltage SID Collection](https://hvsc.de/downloads) contains over 50,000 SID files, most of which are directly playable on the TeensyROM.
     * There's a great collection of Single Load Demos [located here](http://sensoriumembedded.com/tinyweb64/Demos/).
     * [Here's a .zip](https://sensoriumembedded.com/tinyweb64/TeensyROM+/TR+%20Demos-Support.zip) of files/programs that highlight TeensyROM+ capabilities.
-    * We recommend adding [this autolaunch.txt file](autolaunch.txt) to the root of an SD card in case you want to set up your TeensyROM as an unprompted diagnostics cartridge in the future.
-
+    * I recommend adding [this autolaunch.txt file](autolaunch.txt) to the root of an SD card in case you want to set up your TeensyROM as an unprompted diagnostics cartridge in the future.
+    * Here are a couple scripts that copy all of the above referenced files to an SD Card
+      * [Cross platform MAKEFILE](Ref_Scripts\Makefile) by [The JEEP](https://github.com/mchineboy)
+      * Or use this [Windows PowerShell Script](Ref_Scripts\Build-TeensyromCard.ps1)
     
 ## Loading files and emulating ROMs
   * Files can be launched from any of the available sources, including any subdirectory
